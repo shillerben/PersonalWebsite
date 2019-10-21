@@ -1,0 +1,26 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Another personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shillerben/PersonalWebsite.git"
+  },
+  "author": "Ben Shiller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shillerben/PersonalWebsite/issues"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "homepage": "https://shillerben.com/",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
