@@ -13,5 +13,6 @@ app.get('*', function(req, res) {
     res.render('404_page');
 });
 
-app.listen(8080);
+app.listen(PORT);
+
 console.log(`Server started on localhost:${ PORT }; press Ctrl-C to terminate...!`);
